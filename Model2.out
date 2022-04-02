@@ -1,0 +1,61 @@
+
+                                      ARENA Simulation Results
+                                      zishan - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 3/30/2022
+Analyst: zishan                                                      Model revision date: 3/30/2022
+
+Replication ended at time      : 15.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .07050     (Insuf)    .03375     .11662        197    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        197    
+Entity 1.WaitTime                           2.2197     (Insuf)    .00000     3.6405        197    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        197    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        197    
+Entity 1.TotalTime                          2.2902     (Insuf)    .03961     3.6758        197    
+WorkingQueue1.Queue.WaitingTime             1.1809     (Insuf)    .00000     1.8787        117    
+WorkingQueue2.Queue.WaitingTime             1.1489     (Insuf)    .00000     1.9038         81    
+WaitingQueue2.Queue.WaitingTime             1.1006     (Insuf)    .00000     1.8842         90    
+WaitingQueue1.Queue.WaitingTime             1.1441     (Insuf)    .00000     1.9663        132    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                36.045     (Corr)     .00000     57.000     49.000    
+Resource 2.NumberBusy                       .13000     (Insuf)    .00000     1.0000     .00000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .13000     (Insuf)    .00000     1.0000     .00000    
+Resource 1.NumberBusy                       .97940     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .97940     (Insuf)    .00000     1.0000     1.0000    
+WorkingQueue1.Queue.NumberInQueue           10.224     (Insuf)    .00000     20.000     15.000    
+WorkingQueue2.Queue.NumberInQueue           6.5575     (Insuf)    .00000     14.000     9.0000    
+WaitingQueue2.Queue.NumberInQueue           7.3777     (Insuf)    .00000     16.000     11.000    
+WaitingQueue1.Queue.NumberInQueue           10.905     (Insuf)    .00000     19.000     13.000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           246.00    
+Entity 1.NumberOut                          197.00    
+Resource 2.NumberSeized                     117.00    
+Resource 2.ScheduledUtilization             .13000    
+Resource 1.NumberSeized                     420.00    
+Resource 1.ScheduledUtilization             .97940    
+System.NumberOut                            197.00    
+
+
+Simulation run time: 0.03 minutes.
+Simulation run complete.

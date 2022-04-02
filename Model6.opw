@@ -1,0 +1,9 @@
+[RESOURCES]
+Resource 1
+[VARIABLES]
+Condition.NumberOut False
+Exit.NumberOut
+Shopekeeper.NumberIn
+Shopekeeper.NumberOut
+Condition.NumberOut True
+Arrival.NumberOut

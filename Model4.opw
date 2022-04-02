@@ -1,0 +1,15 @@
+[RESOURCES]
+Resource 1
+[VARIABLES]
+DoctorQueue.NumberIn
+DoctorQueue.NumberOut
+Condition1.NumberOut True
+Condition1.NumberOut False
+Exit.NumberOut
+Condition2.NumberOut True
+Nurse2Queue.NumberIn
+Nurse1Queue.NumberIn
+Nurse2Queue.NumberOut
+Nurse1Queue.NumberOut
+Condition2.NumberOut False
+Arrival.NumberOut
